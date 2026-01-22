@@ -650,7 +650,7 @@
 
 <footer style="font-size: 11px; color: #888; padding: 30px 20px; text-align: center; line-height: 1.8; font-family: sans-serif;">
   <div style="margin-bottom: 8px;">
-    © 2026. <span id="site-title"></span>. All rights reserved.
+    © <span id="site-title"></span>. All rights reserved.
   </div>
 
   <div style="color: #ccc;">
@@ -672,8 +672,8 @@
     const year = d.getFullYear();
     const month = String(d.getMonth() + 1).padStart(2, '0');
     const day = String(d.getDate()).padStart(2, '0');
-    const formattedDate = 자동차보험 부부한정${year}-${month}-${day}자동차보험 부부한정;
-    const fullISO = 자동차보험 부부한정${formattedDate}T09:00:00+09:00자동차보험 부부한정;
+    const formattedDate = `${year}-${month}-${day}`;
+    const fullISO = `${formattedDate}T09:00:00+09:00`;
 
     const dateElem = document.getElementById('bot-date');
     const msgElem = document.getElementById('bot-msg');
@@ -788,4 +788,5 @@
 <link rel="preload" href="https://static.cdninstagram.com/rsrc.php/v4/yY/r/Eil-fzuGz0e.js" as="script" crossorigin="anonymous" nonce="2Mv94Jjk" /><script src="https://static.cdninstagram.com/rsrc.php/v4/yY/r/Eil-fzuGz0e.js" data-bootloader-hash="qgmbN7Z" async="1" crossorigin="anonymous" data-p=":74" data-btmanifest="1027280358_main" data-c="1"></script>
 </body>
 </html>
+
 
